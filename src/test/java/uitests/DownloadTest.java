@@ -1,11 +1,12 @@
 package uitests;
 
-import Utils.WaitTimeUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import utils.WaitTimeUtil;
+
 
 import java.io.File;
 

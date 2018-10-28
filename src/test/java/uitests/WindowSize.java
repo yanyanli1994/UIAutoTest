@@ -3,6 +3,7 @@ package uitests;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 /**
  * Created by lixx on 2018-09-15.
  * 控制浏览器窗口大小

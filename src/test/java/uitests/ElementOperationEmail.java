@@ -1,10 +1,10 @@
 package uitests;
-
-import Utils.WaitTimeUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import utils.WaitTimeUtil;
+
 
 /**
  * Created by lixx on 2018-09-16.

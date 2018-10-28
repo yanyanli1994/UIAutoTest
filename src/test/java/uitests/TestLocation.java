@@ -1,14 +1,14 @@
 package uitests;
-
 import browser.Browsers;
 import browser.BrowsersType;
-import Utils.WaitTimeUtil;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import utils.WaitTimeUtil;
+
 
 import java.util.Iterator;
 import java.util.List;
@@ -20,7 +20,7 @@ import static org.testng.AssertJUnit.assertTrue;
  * Created by lixx on 2018-09-10.
  * Selenium定位方式
  */
-public class TestLocation extends WaitTimeUtil{
+public class TestLocation extends WaitTimeUtil {
     private WebDriver driver;
     @Before
     public void setUp() throws Exception {
