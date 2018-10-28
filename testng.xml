@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="FireflyAutomation"><!-- //创建于2018年5月20日 -->
+    <test name="Practice1" preserve-order="true">
+        <classes>
+            <class name="uitests.TE">
+                <methods>
+                    <include name="test"/>
+                    <include name="test11"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

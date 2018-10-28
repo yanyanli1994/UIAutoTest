@@ -1,0 +1,82 @@
+1、火狐、google、IE三个浏览器配置:Browser文件夹（浏览器驱动在drivertool文件夹）2018-09-10
+2、Selenium定位方式：TestLocation.java   2018-09-10
+(1)通过ID定位
+(2)通过Name来定位
+(3)通过Class定位
+(4)通过Tag来定位
+(5)通过Link来定位
+(6)通过PartialLink来定位
+(7)XPath定位：
+   1）绝对路径
+   2）相对路径
+   3）利用元素属性定位
+   4）层级与属性结合
+   5）使用逻辑运算符
+(8)CSS定位：
+   1）通过class属性定位
+   2）通过id属性定位
+   3）通过标签名定位
+   4）通过父子关系定位
+   5）通过属性定位
+   6）通配符
+   7）组合定位
+3、等待时间工具类 ：WaitTimeUtil.java       2018年9月15日
+4、selenium测试
+(1)控制浏览器
+   1）控制浏览器窗口大小:WindowSize.java
+   2）控制浏览器前进和后退:WindowBackAndForward.java
+   3）模拟浏览器刷新:WindowRefresh.java
+(2)简单元素操作：ElementOperationEmail.java  2018年9月16日
+   1）清除文本
+   2）模拟按键输入
+   3）单击元素
+   4）提交表单
+   5）获取元素尺寸
+   6）获取元素文本
+   7）获取属性值
+   8）获取属性值可见
+(3)鼠标事件:  MouseOperation.java     2018年10月3日
+   1）右击
+   2）鼠标悬停
+   3）双击
+   4）拖放
+(4)键盘事件:  KeyB.java               2018年10月6日
+(5)获取验证信息
+(6)设置元素等待
+   1）显示等待:ExplicitWait.java      2018年10月6日
+   2）隐式等待:ImplicitWait.java      2018年10月6日
+   3）sleep休眠方法
+(7)定位一组元素
+   1）多选框：CheckBox.java & CheckBox.html    2018年10月6日
+(8)切换
+   1）多表单切换:FrameSwitch.java & FrameSwitch.html   2018年10月8日
+   2）多窗口切换:WindowsSwitch.java            2018年10月6日
+(9)警告框处理:AlterHandle.java                 2018年10月6日
+(10)文件
+   1）上传文件:UploadTest.java & UploadTest.html  2018年10月6日
+   2）下载文件:DownloadTest.java               2018年10月7日
+(11)操作Cookie:CookieOperation.java            2018年10月7日
+(12)调用JavaScript
+   1）滚动条滚动:WindowScroll.java             2018年10月7日
+   2）向textarea文本框输入内容:TextareaInput.java & textarea.html 2018年10月7日
+(13)处理HTML5的视频播放:Video.java & Video.html   2018年10月8日
+(14)窗口
+   1）窗口截图:ScreenShotTest.java            2018年10月7日
+   2）关闭窗口:WindowsClose.java              2018年10月8日
+(15)验证码处理
+   1）记录Cookie
+ 5、TestNg生成测试报告
+ 运行testng.xml
+ 在idea中创建testNG的工程，运行结束不会生产test-output目录和生成测试报告，原因是在运行配置中，没有勾选use Default reporters
+ 设置步骤：(1)点击工具条中Run，选择Edit Configurations，弹出运行配置对话框
+           (2)在左侧选择要设置运行的测试脚本，在左侧选择Configuration的Listeners项，勾选use default reporters前的选择框打上对号，然后点击ok，重新运行test，就会生产test-output文件了。
+ 6、数据驱动
+
+
+
+
+
+
+
+
+
