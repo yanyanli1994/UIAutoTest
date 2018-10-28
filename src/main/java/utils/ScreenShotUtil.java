@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
 import java.io.IOException;
-
+//窗口截图工具类
 public class ScreenShotUtil {
 
     WebDriver driver ;
@@ -21,7 +21,7 @@ public class ScreenShotUtil {
     //调用屏幕截图方法
     public static void getSaveImg(String url ,String imgName){
         ScreenShotUtil screenShotUtil = new ScreenShotUtil();
-        //断言
+        //断言todo//
         screenShotUtil.getSaveImg1(url,imgName);
     }
     private void getSaveImg1(String url ,String imgName){
@@ -40,8 +40,5 @@ public class ScreenShotUtil {
         }
 
     }
-
-
-
 
 }

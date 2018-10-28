@@ -1,13 +1,15 @@
 package utils;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import org.testng.Assert;
+
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import org.testng.Assert;
-
-import jxl.*;
 
 /**
  * Excel放在Data文件夹下</p>
@@ -18,6 +20,7 @@ import jxl.*;
  * {@link www.zhenghongzhi.cn/post/42.html}
  * @ClassName: ExcelDataProvider
  * @Description: TODO(读取Excel数据)
+ * @author chenDoInG
  */
 public class ExcelDataProvider implements Iterator<Object[]> {
 
@@ -38,13 +41,13 @@ public class ExcelDataProvider implements Iterator<Object[]> {
                 classname = classname.substring(classname.lastIndexOf(".") + 1,
                         classname.length());
             }
-            String path = System.getProperty("user.dir");
-            //从/data文件夹下读取以类名命名的excel文件
-            String xlsxPath = path+"/data/" + classname + ".xlsx";
+
+            String path = "datas/" + classname + ".xls";
             InputStream inputStream = new FileInputStream(path);
+
             book = Workbook.getWorkbook(inputStream);
-            //取sheet
-            sheet = book.getSheet(methodname);
+            // sheet = book.getSheet(methodname);
+            sheet = book.getSheet(0);
             rowNum = sheet.getRows();
             Cell[] cell = sheet.getRow(0);
             columnNum = cell.length;

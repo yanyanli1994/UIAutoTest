@@ -105,9 +105,9 @@ public class PropertiesUtil {
 
     public static String getProperiesKeyName(String key) {
         PropertiesUtil p = new PropertiesUtil("sysConfig.properties");
-
         return p.readProperty(key);
     }
+
 
     public static void main(String[] args) {
         // sysConfig.properties(配置文件)
