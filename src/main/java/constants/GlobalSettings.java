@@ -22,6 +22,9 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 /**
+ *
+ * 获取pro.properties 文件中的内容
+ * 并添加默认值
  * Global Settings
  * @author ChenKan
  */

@@ -40,7 +40,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 /**
- * BrowserEmulator is based on Selenium2 and adds some enhancements
+ * Browser Emulator基于Selenium 2并添加了一些增强功能
  * @author ChenKan
  */
 public class BrowserEmulator {
@@ -99,7 +99,7 @@ public class BrowserEmulator {
 	}
 
 	/**
-	 * Get the WebDriver instance embedded in BrowserEmulator
+	 * 获取BrowserEmulator中嵌入的WebDriver实例
 	 * @return a WebDriver instance
 	 */
 	public RemoteWebDriver getBrowserCore() {

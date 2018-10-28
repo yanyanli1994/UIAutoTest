@@ -12,6 +12,10 @@ import java.io.IOException;
 import java.util.Arrays;
 
 /**
+ *
+ * 配置 火狐、google、IE三个浏览器驱动
+ * 以及浏览器插件安装
+ *
  * Created by lixx on 2018-09-10.
  */
 public class Browsers {
@@ -20,6 +24,10 @@ public class Browsers {
     private static DesiredCapabilities caps =null;
     private String projectpath=System.getProperty("user.dir");
 
+    /**
+     *  传入浏览器类型
+     * @param browsersType
+     */
     public Browsers(BrowsersType browsersType){
         switch (browsersType){
             case firefox:

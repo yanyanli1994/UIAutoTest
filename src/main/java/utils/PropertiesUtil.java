@@ -108,6 +108,11 @@ public class PropertiesUtil {
         return p.readProperty(key);
     }
 
+    public static String getPropProperiesKeyName(String key) {
+        PropertiesUtil p = new PropertiesUtil("pro.properties");
+        return p.readProperty(key);
+    }
+
 
     public static void main(String[] args) {
         // sysConfig.properties(配置文件)
