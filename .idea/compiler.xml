@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MaYiUIAutoTest" />
-        <module name="uiautotest" />
+        <module name="uiautotest_2018" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MaYiUIAutoTest" options="-Xlint:unchecked -Xlint:deprecation" />
-      <module name="uiautotest" options="-Xlint:unchecked -Xlint:deprecation" />
+      <module name="uiautotest_2018" options="-Xlint:unchecked -Xlint:deprecation" />
     </option>
   </component>
 </project>

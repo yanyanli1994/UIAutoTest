@@ -1,3 +1,4 @@
+==================李欣欣2018年关于selenium练习================================================
 1、火狐、google、IE三个浏览器配置:Browser文件夹（浏览器驱动在drivertool文件夹）2018-09-10
 2、Selenium定位方式：TestLocation.java   2018-09-10
 (1)通过ID定位
@@ -72,8 +73,7 @@
  在idea中创建testNG的工程，运行结束不会生产test-output目录和生成测试报告，原因是在运行配置中，没有勾选use Default reporters
  设置步骤：(1)点击工具条中Run，选择Edit Configurations，弹出运行配置对话框
            (2)在左侧选择要设置运行的测试脚本，在左侧选择Configuration的Listeners项，勾选use default reporters前的选择框打上对号，然后点击ok，重新运行test，就会生产test-output文件了。
- 6、数据驱动
- 7、获取列表中css样式一样的列表数据，循环取出
+6、获取列表中css样式一样的列表数据，循环取出
  GetListTest.java      2018年10月28日
 
 

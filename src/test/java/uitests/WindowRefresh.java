@@ -3,7 +3,7 @@ package uitests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import static utils.WaitTimeUtil.sleep;
+import static utils.utilsxinxin.WaitTimeUtil.sleep;
 
 
 /**

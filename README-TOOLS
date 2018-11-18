@@ -1,0 +1,7 @@
+一、工具类
+1、所有selenium操作：BrowserEmulator.java
+2、获取pro.properties 文件中的内容，若无值添加默认值：GlobalSettings.java
+3、日志工具类（屏幕截图生成方式）:LogTools.java
+4、数据驱动工具类：ExcelDataProvider.java
+5、FlexAutomation
+6、

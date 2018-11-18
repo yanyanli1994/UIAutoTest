@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import utils.WaitTimeUtil;
+import utils.utilsxinxin.WaitTimeUtil;
 
 /**
  * Created by lixx on 2018-10-08.
